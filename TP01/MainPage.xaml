@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+           
+
+            <Label
+                Text="Seja bem vindo"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Faça seu login"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+
+            <Entry 
+                x:Name="UserEntry"
+                Placeholder="Username" PlaceholderColor="Olive"
+                VerticalOptions="Center" />
+
+            <Entry
+                x:Name="PassEntry"
+                IsPassword="true" Placeholder="Password"
+                VerticalOptions="Center" />
+
+            <Label
+                x:Name="isLogin"
+                Text=""
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="LoginBtn"
+                Text="Login"
+                SemanticProperties.Hint="CLick to login"
+                Clicked="OnLoginClicked"
+                HorizontalOptions="Center"
+              />
+
+
+            <Button
+                x:Name="ClearBtn"
+                Text="Limpar"
+                SemanticProperties.Hint="CLick to Clear"
+                Clicked="OnClearClicked"
+                HorizontalOptions="Center" />
+
+
+
+            <Button
+                x:Name="CreditBtn"
+                Text="Créditos"
+                SemanticProperties.Hint="Click Credits"
+                Clicked="OnCreditsClicked"
+                HorizontalOptions="Center" />
+
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

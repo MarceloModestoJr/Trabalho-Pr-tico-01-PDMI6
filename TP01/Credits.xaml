@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.Credits"
+             Title="NewPage1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Bruna Helena Silva Santos          CB3016111"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="Marcelo Modesto de Lima Junior     CB3015823"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        
+    </VerticalStackLayout>
+</ContentPage>
